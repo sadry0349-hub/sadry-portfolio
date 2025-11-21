@@ -67,7 +67,7 @@ model Project {
   title       String
   description String
   category    String
-  technologies String[]
+  technologies String   // ✅ CHANGED FROM String[] to String
   imageUrl    String?
   liveUrl     String?
   githubUrl   String?
